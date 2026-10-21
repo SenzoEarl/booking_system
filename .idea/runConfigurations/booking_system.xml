@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="booking_system" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/public">
+    <CommandLine parameters="php" workingDirectory="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
