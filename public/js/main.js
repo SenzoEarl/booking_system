@@ -19,10 +19,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Optional: Dynamic minimum date enforcement if HTML5 min attribute isn't supported
-    const dateInput = document.getElementById('booking_date');
-    if (dateInput) {
-        const today = new Date().toISOString().split('T')[0];
-        dateInput.setAttribute('min', today);
-    }
 });
